@@ -1,0 +1,6 @@
+@AttemptAtUserIdPush_HostAddress = http://localhost:5285
+
+GET {{AttemptAtUserIdPush_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
