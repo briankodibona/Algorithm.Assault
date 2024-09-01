@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto Mono:wght@300;400;700");
+@import url("https://api.fontshare.com/css?f[]=roboto mono@300,400,700&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-2,
+.sign-up-sign-up-1,
+.sign-up-tt-bg-rectangle-4password-component-input-password,
+.sign-up-btn-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-3,
+.sign-up-sign-up,
+.sign-up-t-rectangle {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-4,
+.sign-up-t-bg-rectangle-4password-component-input-password,
+.sign-up-password-component-input-password-2 {
+  display: flex;
+  align-items: center;
+}
+
+.common-1,
+.sign-up-email-component-input-email,
+.sign-up-password-component-input-password,
+.sign-up-password-component-input-password-1 {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.sign-up-sign-up {
+  align-items: center;
+  row-gap: 21px;
+  padding-bottom: 17px;
+  padding-left: 25px;
+  padding-right: 31px;
+  padding-top: 105px;
+  position: relative;
+  width: 100%;
+  font-family: "Roboto Mono", ui-sans-serif, system-ui, sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: 0em;
+}
+
+.sign-up-sign-up-1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 108px;
+  padding-right: 107px;
+  align-self: stretch;
+}
+
+.sign-up-email-component-input-email {
+  font-weight: 300;
+  align-items: center;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding-left: 27px;
+  padding-right: 4px;
+  align-self: stretch;
+}
+
+.sign-up-para-1 {
+  display: block;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.sign-up-password-component-input-password {
+  font-weight: 300;
+  align-items: center;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding-left: 27px;
+  padding-right: 4px;
+  align-self: stretch;
+}
+
+.sign-up-para-2 {
+  display: block;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.sign-up-password-component-input-password-1 {
+  font-weight: 300;
+  align-items: center;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding-left: 27px;
+  padding-right: 4px;
+  align-self: stretch;
+}
+
+.sign-up-para-3 {
+  display: block;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.sign-up-ttt-bg-rectangle-4password-component-input-password {
+  align-self: stretch;
+  padding-left: 1px;
+}
+
+.sign-up-tt-bg-rectangle-4password-component-input-password {
+  padding-left: 4.5px;
+  padding-right: 4.5px;
+}
+
+.sign-up-t-bg-rectangle-4password-component-input-password {
+  flex-grow: 1;
+  padding-left: 22px;
+  z-index: 0;
+  position: relative;
+}
+
+.sign-up-bg-rectangle {
+  z-index: 0;
+  bottom: 0px;
+  left: -4.5px;
+  right: -4.5px;
+  top: 0px;
+  position: absolute;
+}
+
+.sign-up-password-component-input-password-2 {
+  flex-grow: 1;
+  z-index: 2;
+  font-weight: 300;
+}
+
+.sign-up-para-4 {
+  display: block;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.sign-up-t-rectangle {
+  align-self: stretch;
+  padding-left: 0.5px;
+  padding-right: 0.5px;
+  padding-top: 61px;
+  justify-content: flex-end;
+}
+
+.sign-up-btn-text {
+  background-color: #5f9ea0b7;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding-left: 43px;
+  padding-right: 42px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sign-up-para-5 {
+  text-align: center;
+}
+
+.sign-up-vector {
+  width: 16px;
+  height: 16px;
+  left: 36px;
+  top: 52px;
+  position: absolute;
+  flex-shrink: 0;
+}
+
+.sign-up-email-component-input-email:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.sign-up-para-1::placeholder {
+  color: #241c1c;
+}
+
+.sign-up-password-component-input-password:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.sign-up-para-2::placeholder {
+  color: #241c1c;
+}
+
+.sign-up-password-component-input-password-1:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.sign-up-para-3::placeholder {
+  color: #241c1c;
+}
+
+.sign-up-password-component-input-password-2:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.sign-up-para-4::placeholder {
+  color: #241c1c;
+}

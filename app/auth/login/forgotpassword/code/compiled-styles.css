@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=inter@400,700&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-1,
+.forgot-password-verification-frame,
+.forgot-password-verification-frame-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-2,
+.forgot-password-verification-forgot-password-verification,
+.forgot-password-verification-t-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-3,
+.forgot-password-verification-t-forgot-password,
+.forgot-password-verification-t-we-have-sent-an-email-to-your-email-account-with-averification-code,
+.forgot-password-verification-t-verification-code {
+  display: flex;
+  align-items: flex-end;
+}
+
+.forgot-password-verification-forgot-password-verification {
+  background-color: white;
+  row-gap: 6px;
+  padding-bottom: 459px;
+  padding-left: 35px;
+  padding-right: 36px;
+  padding-top: 57px;
+  width: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.forgot-password-verification-group {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.forgot-password-verification-t-forgot-password {
+  padding-top: 30px;
+}
+
+.forgot-password-verification-forgot-password {
+  font-size: 32px;
+  color: mediumslateblue;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.forgot-password-verification-t-we-have-sent-an-email-to-your-email-account-with-averification-code {
+  padding-right: 57px;
+  padding-top: 13px;
+}
+
+.forgot-password-verification-we-have-sent-an-email-to-your-email-account-with-averification-code {
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  line-height: normal;
+}
+
+.forgot-password-verification-t-verification-code {
+  padding-top: 49px;
+}
+
+.forgot-password-verification-verification-code {
+  line-height: 24px;
+}
+
+.forgot-password-verification-frame {
+  border-style: solid;
+  border-color: mediumslateblue;
+  border-top-width: 1.5px;
+  border-bottom-width: 1.5px;
+  border-left-width: 1.5px;
+  border-right-width: 1.5px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding-bottom: 15px;
+  padding-left: 128px;
+  padding-right: 128px;
+  padding-top: 15px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.forgot-password-verification-ex {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: silver;
+  line-height: 24px;
+  font-style: italic;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.forgot-password-verification-t-frame {
+  padding-top: 22px;
+  justify-content: flex-end;
+}
+
+.forgot-password-verification-frame-1 {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background-color: mediumslateblue;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  text-align: left;
+}
+
+.forgot-password-verification-submit {
+  text-align: center;
+  color: white;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.forgot-password-verification-frame:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.forgot-password-verification-ex::placeholder {
+  font-style: italic;
+  color: #c8c8c8;
+}

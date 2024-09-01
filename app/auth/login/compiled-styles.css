@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto Mono:wght@300;400;700");
+@import url("https://api.fontshare.com/css?f[]=roboto mono@300,400,700&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-2,
+.log-in-forgot,
+.log-in-log-in-1,
+.log-in-btn-text,
+.log-in-forgot-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-3,
+.log-in-log-in,
+.log-in-t-rectangle {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-1,
+.log-in-email-component-input-email,
+.log-in-password-component-input-password {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.log-in-log-in {
+  align-items: center;
+  row-gap: 21px;
+  padding-bottom: 186px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 82px;
+  position: relative;
+  width: 100%;
+  font-family: "Roboto Mono", ui-sans-serif, system-ui, sans-serif;
+  line-height: normal;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0em;
+}
+
+.log-in-forgot {
+  height: 43px;
+  bottom: 122px;
+  left: 67px;
+  right: 74px;
+  position: absolute;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.log-in-para {
+  text-align: center;
+}
+
+.log-in-log-in-1 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 107px;
+  padding-right: 106px;
+  align-self: stretch;
+}
+
+.log-in-para-1 {
+  text-align: center;
+}
+
+.log-in-t-rectangle {
+  align-self: stretch;
+  padding-top: 19px;
+  justify-content: flex-end;
+}
+
+.log-in-email-component-input-email {
+  font-size: 18px;
+  align-items: center;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding-left: 16px;
+  padding-right: 15px;
+}
+
+.log-in-para-2 {
+  display: block;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.log-in-password-component-input-password {
+  font-size: 18px;
+  text-align: left;
+  align-items: center;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding-left: 16px;
+  padding-right: 15px;
+  align-self: stretch;
+}
+
+.log-in-para-3 {
+  display: block;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.log-in-btn-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: whitesmoke;
+  background-color: slateblue;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding-left: 110px;
+  padding-right: 109px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-self: stretch;
+}
+
+.log-in-para-4 {
+  text-align: center;
+}
+
+.log-in-forgot-1 {
+  padding-left: 43px;
+  padding-right: 42px;
+  align-self: stretch;
+}
+
+.log-in-para-5 {
+  text-align: center;
+}
+
+.log-in-email-component-input-email:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.log-in-para-2::placeholder {
+  color: #241c1c;
+}
+
+.log-in-password-component-input-password:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.log-in-para-3::placeholder {
+  color: #241c1c;
+}

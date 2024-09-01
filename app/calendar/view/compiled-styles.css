@@ -1,0 +1,1508 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=rubik@400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600");
+@import url("https://api.fontshare.com/css?f[]=inter@400,500,600&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-8,
+.calender-buttons,
+.calender-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-9,
+.calender-t-day,
+.calender-t-day-1,
+.calender-t-day-2,
+.calender-t-day-3,
+.calender-t-day-4,
+.calender-t-day-5,
+.calender-t-day-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.common-10,
+.calender-tt-day-ttdot-dot-dot-tday-ttdot-dot-dot,
+.calender-t-toasts-multi-line,
+.calender-ttt-hint-the-dots-below-each-date-represent-your-login-activity-for-that-day-xcircle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.common-11,
+.calender-t-day-ttdot-dot-dot,
+.calender-t-day-ttdot-dot-dot-1,
+.calender-t-day-ttdot-dot-dot-2,
+.calender-t-day-ttdot-dot-dot-3,
+.calender-t-day-ttdot-dot-dot-4,
+.calender-t-button-groups,
+.calender-t-day-tday-ttdot-dot-tday,
+.calender-t-day-ttdot-dot-dot-tday-tdot-tday-ttdot-dot-dot,
+.calender-t-day-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot,
+.calender-t-day-ttdot-dot-dot-5,
+.calender-t-day-ttdot-dot-dot-6,
+.calender-t-day-ttdot-dot-dot-7,
+.calender-t-day-tdot-ttday-ttdot-dot-dot-tday-ttdot-dot-dot,
+.calender-t-day-ttdot-dot-dot-8,
+.calender-t-day-ttdot-dot-dot-9,
+.calender-t-day-ttdot-dot-dot-10,
+.calender-t-day-ttdot-dot-dot-11,
+.calender-t-day-ttdot-dot-dot-12,
+.calender-t-frame,
+.calender-t-dot-2,
+.calender-t-day-ttdot-dot-dot-13,
+.calender-t-day-ttdot-dot,
+.calender-t-day-ttdot-dot-dot-14,
+.calender-t-day-ttdot-dot-dot-15,
+.calender-t-day-ttdot-dot-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-12,
+.calender-tt-day-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot,
+.calender-tt-day-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-1,
+.calender-t-day-tday-tframe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.common-13,
+.calender-t-calender-buttons,
+.calender-t-dot-tdot-dot-tdot-tdot-dot-dot-dot-tdot-dot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.common-14,
+.calender-t-block,
+.calender-tt-february-2021tchevron-left-chevron-right,
+.calender-t-february,
+.calender-t-chevron-left-chevron-right,
+.calender-t-dot-dot-dot,
+.calender-t-dot-dot-dot-1,
+.calender-t-dot-dot-dot-2,
+.calender-t-dot-dot-dot-3,
+.calender-t-dot-dot-dot-4,
+.calender-t-dot-dot,
+.calender-t-dot-dot-dot-5,
+.calender-t-dot,
+.calender-t-dot-dot-dot-6,
+.calender-t-dot-dot-dot-7,
+.calender-t-dot-dot-dot-8,
+.calender-t-dot-dot-1,
+.calender-t-dot-dot-dot-9,
+.calender-t-dot-dot-dot-10,
+.calender-t-dot-dot-dot-11,
+.calender-t-dot-1,
+.calender-t-dot-dot-dot-12,
+.calender-t-dot-dot-dot-13,
+.calender-t-dot-dot-dot-14,
+.calender-t-dot-dot-dot-15,
+.calender-t-dot-dot-dot-16,
+.calender-t-dot-dot-2,
+.calender-t-dot-dot-dot-17,
+.calender-t-dot-dot-dot-18,
+.calender-t-dot-dot-4,
+.calender-t-dot-dot-dot-19,
+.calender-t-dot-dot-dot-20,
+.calender-t-dot-dot-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-15,
+.calender-ttt-february-2021tchevron-left-chevron-right,
+.calender-ttt-dot-tdot-dot-tdot-tdot-dot-dot-dot-tdot-dot {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.common-16,
+.calender-t-day-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-day,
+.calender-tt-day-tday-ttdot-dot-tday-tday-ttdot-dot-dot-tday-tdot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-ttday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-tdot-ttday-ttdot-dot-dot-tday-ttdot-dot-dot-ttday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-tday-tframe,
+.calender-tt-hint-the-dots-below-each-date-represent-your-login-activity-for-that-day-xcircle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.common-17,
+.calender-wrapper,
+.calender-t-dot-dot-3 {
+  display: flex;
+  align-items: center;
+}
+
+.common-18,
+.calender-t-day-7,
+.calender-t-day-8,
+.calender-t-day-9,
+.calender-t-day-10,
+.calender-t-day-11,
+.calender-t-day-12,
+.calender-t-day-13 {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.common-19,
+.calender-t-day-day-day-day-day-day-day,
+.calender-toasts-multi-line {
+  justify-content: center;
+  align-items: center;
+}
+
+.common-1,
+.calender-calender,
+.calender-action-sheet {
+  display: flex;
+  width: 100%;
+}
+
+.common-2,
+.calender-t-day-7,
+.calender-t-day-8,
+.calender-t-day-9,
+.calender-t-day-10,
+.calender-t-day-11,
+.calender-t-day-12,
+.calender-t-day-13 {
+  display: flex;
+  height: 5px;
+}
+
+.common-3,
+.calender-button-groups,
+.calender-toasts-multi-line {
+  display: flex;
+  background-color: black;
+}
+
+.common-4,
+.calender-t-day-day-day-day-day-day-day,
+.calender-t-day-tday-ttdot-dot-dot-tday-ttdot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-day {
+  display: flex;
+  color: dimgray;
+}
+
+.common-5,
+.calender-x,
+.calender-x-circle {
+  width: 20px;
+  height: 20px;
+}
+
+.common-6,
+.calender-chevron-left,
+.calender-chevron-right {
+  width: 24px;
+  height: 24px;
+}
+
+.common-7,
+.calender-dot,
+.calender-dot-1,
+.calender-dot-2,
+.calender-dot-3,
+.calender-dot-4,
+.calender-dot-5,
+.calender-dot-6,
+.calender-dot-7,
+.calender-dot-8,
+.calender-dot-9,
+.calender-dot-10,
+.calender-dot-11,
+.calender-dot-12,
+.calender-dot-13,
+.calender-dot-14,
+.calender-dot-15,
+.calender-dot-16,
+.calender-dot-17,
+.calender-dot-18,
+.calender-dot-19,
+.calender-dot-20,
+.calender-dot-21,
+.calender-dot-22,
+.calender-dot-23,
+.calender-dot-24,
+.calender-dot-25,
+.calender-dot-26,
+.calender-dot-27,
+.calender-dot-28,
+.calender-dot-29,
+.calender-dot-30,
+.calender-dot-31,
+.calender-dot-32,
+.calender-dot-33,
+.calender-dot-34,
+.calender-dot-35,
+.calender-dot-36,
+.calender-dot-37,
+.calender-dot-38,
+.calender-dot-39,
+.calender-dot-40,
+.calender-dot-41,
+.calender-dot-42,
+.calender-dot-43,
+.calender-dot-44,
+.calender-dot-45,
+.calender-dot-46,
+.calender-dot-47,
+.calender-dot-48,
+.calender-dot-49,
+.calender-dot-50,
+.calender-dot-51,
+.calender-dot-52,
+.calender-dot-53,
+.calender-dot-54,
+.calender-dot-55,
+.calender-dot-56,
+.calender-dot-57,
+.calender-dot-58,
+.calender-dot-59,
+.calender-dot-60,
+.calender-dot-61,
+.calender-dot-62,
+.calender-dot-63,
+.calender-dot-64,
+.calender-dot-65,
+.calender-dot-66,
+.calender-dot-67,
+.calender-dot-68,
+.calender-dot-69,
+.calender-dot-70,
+.calender-dot-71,
+.calender-dot-72,
+.calender-dot-73,
+.calender-dot-74,
+.calender-dot-75,
+.calender-dot-76,
+.calender-dot-77,
+.calender-dot-78,
+.calender-dot-79,
+.calender-dot-80 {
+  width: 4px;
+  height: 4px;
+}
+
+.calender-calender {
+  row-gap: 5px;
+  flex-direction: column;
+  padding-bottom: 174px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 113px;
+  letter-spacing: 0em;
+}
+
+.calender-t-calender-buttons {
+  column-gap: 36px;
+  padding-left: 24px;
+  padding-right: 11px;
+}
+
+.calender-calender-1 {
+  font-family: Rubik, ui-sans-serif, system-ui, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.calender-buttons {
+  border-style: solid;
+  border-color: black;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: mediumpurple;
+  width: 32px;
+  height: 32px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 1));
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.calender-x {
+  flex-shrink: 0;
+}
+
+.calender-wrapper {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  filter: drop-shadow(0px 4px 0px rgba(0, 0, 0, 1));
+}
+
+.calender-action-sheet {
+  border-style: solid;
+  border-color: dimgray;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: clip;
+  align-items: center;
+  background-color: black;
+  row-gap: 7px;
+  flex-direction: column;
+  padding-bottom: 44px;
+  padding-top: 10px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  height: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  line-height: 16px;
+  text-align: center;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.calender-t-block {
+  align-self: stretch;
+  padding-left: 1px;
+}
+
+.calender-block {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: lightgray;
+  width: 48px;
+  height: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-ttt-february-2021tchevron-left-chevron-right {
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 23px;
+  padding-top: 15px;
+}
+
+.calender-tt-february-2021tchevron-left-chevron-right {
+  column-gap: 17px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.calender-t-february {
+  column-gap: 4px;
+  flex-grow: 1;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.calender-february {
+  color: darkgray;
+  font-weight: 500;
+}
+
+.calender-component {
+  color: slateblue;
+}
+
+.calender-chevron-left {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-chevron-right {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-day-day-day-day-day-day {
+  column-gap: 8px;
+  align-self: stretch;
+  padding-left: 1px;
+  padding-top: 13px;
+  font-size: 10px;
+}
+
+.calender-day {
+  width: 30px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-day-1 {
+  width: 30px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-day-2 {
+  width: 30px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-day-3 {
+  width: 30px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-day-4 {
+  width: 30px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-day-5 {
+  width: 30px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-day-6 {
+  width: 30px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-day {
+  column-gap: 8px;
+  align-self: stretch;
+  padding-left: 1px;
+  font-size: 11px;
+}
+
+.calender-day-7 {
+  width: 30px;
+  color: snow;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot {
+  text-align: center;
+}
+
+.calender-day-8 {
+  align-self: stretch;
+  color: gray;
+}
+
+.calender-t-dot-dot-dot {
+  column-gap: 2px;
+}
+
+.calender-dot {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-1 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-2 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot-1 {
+  text-align: center;
+}
+
+.calender-day-9 {
+  align-self: stretch;
+  color: gray;
+}
+
+.calender-t-dot-dot-dot-1 {
+  column-gap: 2px;
+}
+
+.calender-dot-3 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-4 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-5 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot-2 {
+  text-align: center;
+}
+
+.calender-day-10 {
+  align-self: stretch;
+  color: gray;
+}
+
+.calender-t-dot-dot-dot-2 {
+  column-gap: 2px;
+}
+
+.calender-dot-6 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-7 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-8 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot-3 {
+  text-align: center;
+}
+
+.calender-day-11 {
+  align-self: stretch;
+  color: gray;
+}
+
+.calender-t-dot-dot-dot-3 {
+  column-gap: 2px;
+}
+
+.calender-dot-9 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-10 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-11 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot-4 {
+  text-align: center;
+}
+
+.calender-day-12 {
+  align-self: stretch;
+  color: gray;
+}
+
+.calender-t-dot-dot-dot-4 {
+  column-gap: 2px;
+}
+
+.calender-dot-12 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-13 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-14 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-day-13 {
+  width: 30px;
+  color: gray;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-button-groups {
+  width: 315px;
+}
+
+.calender-button-groups {
+  align-items: flex-start;
+  row-gap: 4px;
+  flex-direction: column;
+  width: 375px;
+  padding-left: 58px;
+  padding-right: 57px;
+  padding-top: 1px;
+  font-size: 11px;
+  color: darkgray;
+  text-align: center;
+}
+
+.calender-tt-day-tday-ttdot-dot-tday-tday-ttdot-dot-dot-tday-tdot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-ttday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-tdot-ttday-ttdot-dot-dot-tday-ttdot-dot-dot-ttday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-tday-tframe {
+  column-gap: 8px;
+}
+
+.calender-t-day-tday-ttdot-dot-tday {
+  text-align: center;
+}
+
+.calender-day-14 {
+  align-self: stretch;
+}
+
+.calender-t-day {
+  align-self: stretch;
+  max-width: 30px;
+  padding-top: 12px;
+}
+
+.calender-day-15 {
+  text-align: center;
+}
+
+.calender-t-dot-dot {
+  column-gap: 2px;
+}
+
+.calender-dot-15 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-16 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-1 {
+  align-self: stretch;
+  max-width: 30px;
+  padding-top: 8px;
+}
+
+.calender-day-16 {
+  text-align: center;
+}
+
+.calender-t-day-ttdot-dot-dot-tday-tdot-tday-ttdot-dot-dot {
+  text-align: center;
+}
+
+.calender-day-17 {
+  align-self: stretch;
+}
+
+.calender-t-dot-dot-dot-5 {
+  column-gap: 2px;
+}
+
+.calender-dot-17 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-18 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-19 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-2 {
+  align-self: stretch;
+  max-width: 30px;
+  padding-top: 8px;
+}
+
+.calender-day-18 {
+  text-align: center;
+}
+
+.calender-dot-20 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-3 {
+  align-self: stretch;
+  max-width: 30px;
+  padding-top: 8px;
+}
+
+.calender-day-19 {
+  text-align: center;
+}
+
+.calender-t-dot-dot-dot-6 {
+  column-gap: 2px;
+}
+
+.calender-dot-21 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-22 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-23 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot {
+  text-align: center;
+}
+
+.calender-day-20 {
+  align-self: stretch;
+}
+
+.calender-t-dot-dot-dot-7 {
+  column-gap: 2px;
+}
+
+.calender-dot-24 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-25 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-26 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-4 {
+  align-self: stretch;
+  max-width: 30px;
+  padding-top: 8px;
+}
+
+.calender-day-21 {
+  text-align: center;
+}
+
+.calender-t-dot-dot-dot-8 {
+  column-gap: 2px;
+}
+
+.calender-dot-27 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-28 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-29 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-5 {
+  align-self: stretch;
+  max-width: 30px;
+  padding-top: 8px;
+}
+
+.calender-day-22 {
+  text-align: center;
+}
+
+.calender-t-dot-dot-1 {
+  column-gap: 2px;
+}
+
+.calender-dot-30 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-31 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-tt-day-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot {
+  row-gap: 8px;
+  text-align: center;
+}
+
+.calender-day-23 {
+  align-self: stretch;
+  text-align: center;
+}
+
+.calender-t-dot-dot-dot-9 {
+  text-align: center;
+  column-gap: 2px;
+}
+
+.calender-dot-32 {
+  flex-shrink: 0;
+}
+
+.calender-dot-33 {
+  flex-shrink: 0;
+}
+
+.calender-dot-34 {
+  flex-shrink: 0;
+}
+
+.calender-day-24 {
+  align-self: stretch;
+  text-align: center;
+}
+
+.calender-t-dot-dot-dot-10 {
+  text-align: center;
+  column-gap: 2px;
+}
+
+.calender-dot-35 {
+  flex-shrink: 0;
+}
+
+.calender-dot-36 {
+  flex-shrink: 0;
+}
+
+.calender-dot-37 {
+  flex-shrink: 0;
+}
+
+.calender-day-25 {
+  align-self: stretch;
+  text-align: center;
+}
+
+.calender-t-dot-dot-dot-11 {
+  text-align: center;
+  column-gap: 2px;
+}
+
+.calender-dot-38 {
+  flex-shrink: 0;
+}
+
+.calender-dot-39 {
+  flex-shrink: 0;
+}
+
+.calender-dot-40 {
+  flex-shrink: 0;
+}
+
+.calender-t-day-tdot-ttday-ttdot-dot-dot-tday-ttdot-dot-dot {
+  text-align: center;
+}
+
+.calender-day-26 {
+  align-self: stretch;
+}
+
+.calender-dot-41 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-tt-day-ttdot-dot-dot-tday-ttdot-dot-dot {
+  align-items: flex-start;
+  row-gap: 8px;
+  padding-top: 8px;
+}
+
+.calender-t-day-ttdot-dot-dot-8 {
+  text-align: center;
+}
+
+.calender-day-27 {
+  align-self: stretch;
+}
+
+.calender-t-dot-dot-dot-12 {
+  column-gap: 2px;
+}
+
+.calender-dot-42 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-43 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-44 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot-9 {
+  text-align: center;
+}
+
+.calender-day-28 {
+  align-self: stretch;
+}
+
+.calender-t-dot-dot-dot-13 {
+  column-gap: 2px;
+}
+
+.calender-dot-45 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-46 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-47 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-tt-day-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-1 {
+  row-gap: 8px;
+  text-align: center;
+}
+
+.calender-day-29 {
+  align-self: stretch;
+  text-align: center;
+}
+
+.calender-t-dot-dot-dot-14 {
+  text-align: center;
+  column-gap: 2px;
+}
+
+.calender-dot-48 {
+  flex-shrink: 0;
+}
+
+.calender-dot-49 {
+  flex-shrink: 0;
+}
+
+.calender-dot-50 {
+  flex-shrink: 0;
+}
+
+.calender-day-30 {
+  align-self: stretch;
+  text-align: center;
+}
+
+.calender-t-dot-dot-dot-15 {
+  text-align: center;
+  column-gap: 2px;
+}
+
+.calender-dot-51 {
+  flex-shrink: 0;
+}
+
+.calender-dot-52 {
+  flex-shrink: 0;
+}
+
+.calender-dot-53 {
+  flex-shrink: 0;
+}
+
+.calender-day-31 {
+  align-self: stretch;
+  text-align: center;
+}
+
+.calender-t-dot-dot-dot-16 {
+  text-align: center;
+  column-gap: 2px;
+}
+
+.calender-dot-54 {
+  flex-shrink: 0;
+}
+
+.calender-dot-55 {
+  flex-shrink: 0;
+}
+
+.calender-dot-56 {
+  flex-shrink: 0;
+}
+
+.calender-t-day-tday-tframe {
+  row-gap: 8px;
+  text-align: center;
+}
+
+.calender-day-32 {
+  align-self: stretch;
+}
+
+.calender-t-day-6 {
+  align-self: stretch;
+  max-width: 30px;
+  padding-top: 4px;
+}
+
+.calender-day-33 {
+  text-align: center;
+}
+
+.calender-t-frame {
+  padding-left: 1.1px;
+  padding-right: 1.1px;
+}
+
+.calender-frame {
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: dodgerblue;
+  width: 28px;
+  height: 28px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-day-34 {
+  align-self: stretch;
+}
+
+.calender-dot-57 {
+  flex-shrink: 0;
+}
+
+.calender-tt-day-tday-tday-tday-tday-tday-tday {
+  column-gap: 8px;
+  justify-content: center;
+  display: flex;
+}
+
+.calender-t-day-7 {
+  flex-grow: 1;
+  max-width: 30px;
+  text-align: center;
+}
+
+.calender-day-35 {
+  margin-bottom: -11px;
+}
+
+.calender-t-day-8 {
+  flex-grow: 1;
+  max-width: 30px;
+  text-align: center;
+}
+
+.calender-day-36 {
+  margin-bottom: -11px;
+  color: dimgray;
+}
+
+.calender-t-day-9 {
+  flex-grow: 1;
+  max-width: 30px;
+  text-align: center;
+}
+
+.calender-day-37 {
+  margin-bottom: -11px;
+  color: dimgray;
+}
+
+.calender-t-day-10 {
+  flex-grow: 1;
+  max-width: 30px;
+  text-align: center;
+}
+
+.calender-day-38 {
+  margin-bottom: -11px;
+  color: dimgray;
+}
+
+.calender-t-day-11 {
+  flex-grow: 1;
+  max-width: 30px;
+  text-align: center;
+}
+
+.calender-day-39 {
+  margin-bottom: -11px;
+  color: dimgray;
+}
+
+.calender-t-day-12 {
+  flex-grow: 1;
+  max-width: 30px;
+  text-align: center;
+}
+
+.calender-day-40 {
+  margin-bottom: -11px;
+  color: dimgray;
+}
+
+.calender-t-day-13 {
+  flex-grow: 1;
+  max-width: 30px;
+  text-align: center;
+}
+
+.calender-day-41 {
+  margin-bottom: -11px;
+  color: dimgray;
+}
+
+.calender-ttt-dot-tdot-dot-tdot-tdot-dot-dot-dot-tdot-dot {
+  align-self: stretch;
+  padding-left: 41px;
+  padding-right: 41px;
+  padding-top: 4px;
+}
+
+.calender-t-dot-tdot-dot-tdot-tdot-dot-dot-dot-tdot-dot {
+  text-align: center;
+  column-gap: 2px;
+  padding-right: 34px;
+  flex-grow: 1;
+}
+
+.calender-dot-58 {
+  flex-shrink: 0;
+}
+
+.calender-t-dot-dot-2 {
+  column-gap: 2px;
+  padding-left: 3px;
+}
+
+.calender-dot-59 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-60 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-dot-2 {
+  padding-left: 3px;
+}
+
+.calender-dot-61 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-dot-dot-dot-17 {
+  column-gap: 2px;
+}
+
+.calender-dot-62 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-63 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-64 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-65 {
+  flex-shrink: 0;
+}
+
+.calender-t-dot-dot-3 {
+  column-gap: 2px;
+  padding-left: 3px;
+  justify-content: flex-end;
+}
+
+.calender-dot-66 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-67 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-tday-ttdot-dot-dot-tday-ttdot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-dot-tday-ttdot-dot-day {
+  align-items: flex-start;
+  column-gap: 8px;
+  align-self: stretch;
+  padding-left: 1px;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.calender-day-42 {
+  width: 30px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot-13 {
+  text-align: center;
+}
+
+.calender-day-43 {
+  align-self: stretch;
+}
+
+.calender-t-dot-dot-dot-18 {
+  column-gap: 2px;
+}
+
+.calender-dot-68 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-69 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-70 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot {
+  text-align: center;
+}
+
+.calender-day-44 {
+  align-self: stretch;
+}
+
+.calender-t-dot-dot-4 {
+  column-gap: 2px;
+}
+
+.calender-dot-71 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-72 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot-14 {
+  text-align: center;
+}
+
+.calender-day-45 {
+  align-self: stretch;
+}
+
+.calender-t-dot-dot-dot-19 {
+  column-gap: 2px;
+}
+
+.calender-dot-73 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-74 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-75 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-dot-15 {
+  text-align: center;
+}
+
+.calender-day-46 {
+  align-self: stretch;
+}
+
+.calender-t-dot-dot-dot-20 {
+  column-gap: 2px;
+}
+
+.calender-dot-76 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-77 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-78 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-day-ttdot-dot-1 {
+  text-align: center;
+}
+
+.calender-day-47 {
+  align-self: stretch;
+}
+
+.calender-t-dot-dot-5 {
+  column-gap: 2px;
+}
+
+.calender-dot-79 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-dot-80 {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-day-48 {
+  width: 30px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.calender-t-toasts-multi-line {
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 47px;
+}
+
+.calender-toasts-multi-line {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.calender-ttt-hint-the-dots-below-each-date-represent-your-login-activity-for-that-day-xcircle {
+  flex-grow: 1;
+  padding-top: 8px;
+}
+
+.calender-tt-hint-the-dots-below-each-date-represent-your-login-activity-for-that-day-xcircle {
+  column-gap: 10px;
+}
+
+.calender-t-hint-the-dots-below-each-date-represent-your-login-activity-for-that-day {
+  row-gap: 4px;
+  flex-direction: column;
+  flex-grow: 1;
+  display: flex;
+  font-family: Rubik, ui-sans-serif, system-ui, sans-serif;
+  color: white;
+}
+
+.calender-hint {
+  display: flex;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.calender-the-dots-below-each-date-represent-your-login-activity-for-that-day {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.calender-x-circle {
+  flex-shrink: 0;
+}
