@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600");
+@import url("https://api.fontshare.com/css?f[]=inter@400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=roboto mono@400,700&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-10,
+.profile-buttons,
+.profile-image-placeholder,
+.profile-component {
+  border-style: solid;
+  border-color: black;
+}
+
+.common-4,
+.profile-image-placeholder,
+.profile-t-cape-town-south-africa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-5,
+.profile-t-image-placeholder,
+.profile-t-melissa-peters {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.common-6,
+.profile-tt-material-symbols-location-on-tcape-town-south-africa,
+.profile-t-material-symbols-location-on-tcape-town-south-africa,
+.profile-t-tab-icons-circle-this-is-aone-line-text,
+.profile-t-tab-icons-circle-this-is-aone-line-text-1,
+.profile-t-tab-icons-circle-this-is-aone-line-text-2,
+.profile-t-tab-icons-circle-this-is-aone-line-text-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-7,
+.profile-tt-tab-icons-circle-this-is-aone-line-text-chevron-right,
+.profile-tt-tab-icons-circle-this-is-aone-line-text-chevron-right-1,
+.profile-tt-tab-icons-circle-this-is-aone-line-text-chevron-right-2,
+.profile-tt-tab-icons-circle-this-is-aone-line-text-chevron-right-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.common-8,
+.profile-profile,
+.profile-tt-bg-rectangle-2buttons-timage-placeholder,
+.profile-t,
+.profile-ttt-tab-icons-circle-this-is-aone-line-text-chevron-right-tttab-icons-circle-this-is-aone-line-text-chevron-right-tttab-icons-circle-this-is-aone-line-text-chevron-right-tttab-icons-circle-this-is-aone-line-text-chevron-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-9,
+.profile-buttons,
+.profile-component {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.common-3,
+.profile-interior-designer,
+.profile-cape-town-south-africa {
+  color: dimgray;
+  font-size: 13px;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 500;
+}
+
+.common-1,
+.profile-buttons,
+.profile-component {
+  display: flex;
+  background-color: white;
+}
+
+.common-2,
+.profile-tab-icons-circle,
+.profile-chevron-right,
+.profile-tab-icons-circle-1,
+.profile-chevron-right-1,
+.profile-tab-icons-circle-2,
+.profile-chevron-right-2,
+.profile-tab-icons-circle-3,
+.profile-chevron-right-3 {
+  width: 24px;
+  height: 24px;
+}
+
+.profile-profile {
+  row-gap: 8px;
+  padding-bottom: 48px;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 100%;
+  letter-spacing: 0em;
+}
+
+.profile-t-bg-rectangle-2buttons {
+  padding-bottom: 35px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 35px;
+  justify-content: flex-end;
+  z-index: 0;
+  position: relative;
+  display: flex;
+}
+
+.profile-bg-rectangle {
+  height: 190px;
+  z-index: 0;
+  left: 0px;
+  right: 0px;
+  top: -8px;
+  position: absolute;
+}
+
+.profile-buttons {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  z-index: 2;
+  filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 1));
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.profile-x {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.profile-t-image-placeholder {
+  height: 104px;
+  padding-right: 1px;
+  flex-shrink: 0;
+}
+
+.profile-image-placeholder {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  background-color: #87ceebb7;
+  width: 160px;
+  height: 160px;
+  padding-bottom: 54px;
+  padding-left: 54px;
+  padding-right: 54px;
+  padding-top: 54px;
+  justify-content: center;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 1));
+  flex-shrink: 0;
+}
+
+.profile-photograph {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.profile-t-melissa-peters {
+  padding-right: 3px;
+  padding-top: 19px;
+}
+
+.profile-melissa-peters {
+  text-align: center;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 18px;
+  color: midnightblue;
+  line-height: normal;
+  font-weight: 600;
+}
+
+.profile-interior-designer {
+  line-height: 0.88;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 132px;
+  padding-right: 132px;
+  padding-top: 6px;
+}
+
+.profile-tt-material-symbols-location-on-tcape-town-south-africa {
+  padding-right: 1px;
+}
+
+.profile-t-material-symbols-location-on-tcape-town-south-africa {
+  column-gap: 3px;
+}
+
+.profile-material-symbols-location-on {
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
+}
+
+.profile-t-cape-town-south-africa {
+  padding-bottom: 2px;
+}
+
+.profile-cape-town-south-africa {
+  line-height: 0.88;
+}
+
+.profile-t {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 38px;
+  justify-content: flex-end;
+}
+
+.profile-component {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding-bottom: 32px;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 32px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  filter: drop-shadow(0px 4px 0px rgba(0, 0, 0, 1));
+}
+
+.profile-ttt-tab-icons-circle-this-is-aone-line-text-chevron-right-tttab-icons-circle-this-is-aone-line-text-chevron-right-tttab-icons-circle-this-is-aone-line-text-chevron-right-tttab-icons-circle-this-is-aone-line-text-chevron-right {
+  row-gap: 44px;
+  font-family: "Roboto Mono", ui-sans-serif, system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.profile-tt-tab-icons-circle-this-is-aone-line-text-chevron-right {
+  column-gap: 16px;
+  text-align: left;
+}
+
+.profile-t-tab-icons-circle-this-is-aone-line-text {
+  column-gap: 16px;
+}
+
+.profile-tab-icons-circle {
+  flex-shrink: 0;
+}
+
+.profile-chevron-right {
+  flex-shrink: 0;
+}
+
+.profile-tt-tab-icons-circle-this-is-aone-line-text-chevron-right-1 {
+  column-gap: 16px;
+  text-align: left;
+}
+
+.profile-t-tab-icons-circle-this-is-aone-line-text-1 {
+  column-gap: 16px;
+}
+
+.profile-tab-icons-circle-1 {
+  flex-shrink: 0;
+}
+
+.profile-chevron-right-1 {
+  flex-shrink: 0;
+}
+
+.profile-tt-tab-icons-circle-this-is-aone-line-text-chevron-right-2 {
+  column-gap: 16px;
+  text-align: left;
+}
+
+.profile-t-tab-icons-circle-this-is-aone-line-text-2 {
+  column-gap: 16px;
+}
+
+.profile-tab-icons-circle-2 {
+  flex-shrink: 0;
+}
+
+.profile-chevron-right-2 {
+  flex-shrink: 0;
+}
+
+.profile-tt-tab-icons-circle-this-is-aone-line-text-chevron-right-3 {
+  column-gap: 16px;
+  text-align: left;
+}
+
+.profile-t-tab-icons-circle-this-is-aone-line-text-3 {
+  column-gap: 16px;
+}
+
+.profile-tab-icons-circle-3 {
+  flex-shrink: 0;
+}
+
+.profile-chevron-right-3 {
+  flex-shrink: 0;
+}

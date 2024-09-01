@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=inter@400,700&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-2,
+.forgot-password-enter-code-t-ellipse-1ellipse-2ellipse-3ellipse-4ellipse-5ellipse-6ellipse-7ellipse-8ellipse,
+.forgot-password-enter-code-frame-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-3,
+.forgot-password-enter-code-forgot-password-enter-code,
+.forgot-password-enter-code-t-frame-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-4,
+.forgot-password-enter-code-t-forgot-password,
+.forgot-password-enter-code-t-set-your-new-password-to-login-into-your-account,
+.forgot-password-enter-code-t-enter-new-password {
+  display: flex;
+  align-items: flex-end;
+}
+
+.common-5,
+.forgot-password-enter-code-set-your-new-password-to-login-into-your-account,
+.forgot-password-enter-code-frame {
+  display: flex;
+  align-items: center;
+}
+
+.common-1,
+.forgot-password-enter-code-ellipse,
+.forgot-password-enter-code-ellipse-1,
+.forgot-password-enter-code-ellipse-2,
+.forgot-password-enter-code-ellipse-3,
+.forgot-password-enter-code-ellipse-4,
+.forgot-password-enter-code-ellipse-5,
+.forgot-password-enter-code-ellipse-6,
+.forgot-password-enter-code-ellipse-7,
+.forgot-password-enter-code-ellipse-8 {
+  width: 5.5px;
+  height: 5.5px;
+}
+
+.forgot-password-enter-code-forgot-password-enter-code {
+  background-color: white;
+  row-gap: 6px;
+  padding-bottom: 459px;
+  padding-left: 35px;
+  padding-right: 36px;
+  padding-top: 57px;
+  width: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.forgot-password-enter-code-group {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-t-forgot-password {
+  padding-top: 30px;
+}
+
+.forgot-password-enter-code-forgot-password {
+  font-size: 32px;
+  color: mediumslateblue;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.forgot-password-enter-code-t-set-your-new-password-to-login-into-your-account {
+  padding-right: 57px;
+  padding-top: 13px;
+}
+
+.forgot-password-enter-code-set-your-new-password-to-login-into-your-account {
+  flex-grow: 1;
+  line-height: normal;
+}
+
+.forgot-password-enter-code-t-enter-new-password {
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 49px;
+}
+
+.forgot-password-enter-code-enter-new-password {
+  line-height: 24px;
+}
+
+.forgot-password-enter-code-t-frame {
+  padding-left: 1px;
+}
+
+.forgot-password-enter-code-frame {
+  border-style: solid;
+  border-color: mediumslateblue;
+  border-top-width: 1.5px;
+  border-bottom-width: 1.5px;
+  border-left-width: 1.5px;
+  border-right-width: 1.5px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  row-gap: 2.8px;
+  column-gap: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  flex-wrap: wrap;
+}
+
+.forgot-password-enter-code-group-1 {
+  width: 18px;
+  height: 21px;
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-t-ellipse-1ellipse-2ellipse-3ellipse-4ellipse-5ellipse-6ellipse-7ellipse-8ellipse {
+  column-gap: 1.4px;
+}
+
+.forgot-password-enter-code-ellipse {
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-ellipse-1 {
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-ellipse-2 {
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-ellipse-3 {
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-ellipse-4 {
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-ellipse-5 {
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-ellipse-6 {
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-ellipse-7 {
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-ellipse-8 {
+  flex-shrink: 0;
+}
+
+.forgot-password-enter-code-frame-input {
+  padding-left: 8px;
+  padding-right: 8px;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.forgot-password-enter-code-t-frame-1 {
+  padding-top: 23px;
+  justify-content: flex-end;
+}
+
+.forgot-password-enter-code-frame-1 {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background-color: mediumslateblue;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  text-align: left;
+}
+
+.forgot-password-enter-code-confirm {
+  text-align: center;
+  color: white;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.forgot-password-enter-code-frame:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+@media (min-width: 404px) {
+  .forgot-password-enter-code-frame {
+    flex-wrap: nowrap;
+  }
+}

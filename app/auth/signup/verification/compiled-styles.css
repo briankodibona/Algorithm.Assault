@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=inter@400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400");
+@import url("https://api.fontshare.com/css?f[]=roboto mono@400&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-2,
+.password-verification-frame,
+.password-verification-frame-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-3,
+.password-verification-password-verification,
+.password-verification-t-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-4,
+.password-verification-t-verification,
+.password-verification-t-we-have-sent-an-email-to-your-email-account-with-averification-code {
+  display: flex;
+  align-items: flex-end;
+}
+
+.common-5,
+.password-verification-we-have-sent-an-email-to-your-email-account-with-averification-code,
+.password-verification-verification-code {
+  display: flex;
+  align-items: center;
+}
+
+.common-1,
+.password-verification-verification,
+.password-verification-submit {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+}
+
+.password-verification-password-verification {
+  background-color: white;
+  row-gap: 6px;
+  padding-bottom: 459px;
+  padding-left: 35px;
+  padding-right: 36px;
+  padding-top: 57px;
+  width: 100%;
+  letter-spacing: -0.01em;
+}
+
+.password-verification-group {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.password-verification-t-verification {
+  padding-top: 30px;
+}
+
+.password-verification-verification {
+  font-size: 32px;
+  color: skyblue;
+  line-height: 24px;
+}
+
+.password-verification-t-we-have-sent-an-email-to-your-email-account-with-averification-code {
+  padding-right: 57px;
+  padding-top: 13px;
+}
+
+.password-verification-we-have-sent-an-email-to-your-email-account-with-averification-code {
+  flex-grow: 1;
+  font-family: "Roboto Mono", ui-sans-serif, system-ui, sans-serif;
+  line-height: normal;
+}
+
+.password-verification-t-verification-code {
+  padding-top: 24px;
+}
+
+.password-verification-verification-code {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  line-height: 24px;
+}
+
+.password-verification-frame {
+  border-style: solid;
+  border-color: mediumslateblue;
+  border-top-width: 1.5px;
+  border-bottom-width: 1.5px;
+  border-left-width: 1.5px;
+  border-right-width: 1.5px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding-bottom: 15px;
+  padding-left: 128px;
+  padding-right: 128px;
+  padding-top: 15px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.password-verification-ex {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: silver;
+  line-height: 24px;
+  font-style: italic;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.password-verification-t-frame {
+  padding-top: 22px;
+  justify-content: flex-end;
+}
+
+.password-verification-frame-1 {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background-color: skyblue;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  text-align: left;
+}
+
+.password-verification-submit {
+  text-align: center;
+  color: white;
+  line-height: 24px;
+}
+
+.password-verification-frame:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.password-verification-ex::placeholder {
+  font-style: italic;
+  color: #c8c8c8;
+}

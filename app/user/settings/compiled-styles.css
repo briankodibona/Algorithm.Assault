@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700");
+@import url("https://api.fontshare.com/css?f[]=inter@400,600,700&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-3,
+.group-buttons,
+.group-tt-support-about-rectangle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.common-4,
+.group-ttt-vector-settings,
+.group-t-vector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-5,
+.group-tt-iconamoon-profile-light-edit-profile-tmaterial-symbols-privacy-tip-outline-security-ticonamoon-notification-notifications-tic-outline-lock-privacy,
+.group-ttt-material-symbols-credit-card-outline-my-subscribtion-tmdi-question-mark-circle-outline-help-support-ttabler-circle-letter-iterms-and-policies,
+.group-tt-ri-delete-bin-5line-free-up-space-tic-outline-data-exploration-data-saver,
+.group-tt-ic-sharp-outlined-flag-report-aproblem-tic-sharp-people-outline-add-account {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.common-6,
+.group-tttt-vector-settings-buttons,
+.group-tt-vector-settings,
+.group-t-iconamoon-notification-notifications,
+.group-t-material-symbols-credit-card-outline-my-subscribtion,
+.group-t-tabler-circle-letter-iterms-and-policies,
+.group-t-ri-delete-bin-5line-free-up-space,
+.group-t-ic-sharp-outlined-flag-report-aproblem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-7,
+.group-group,
+.group-ttt-account-rectangle-28ttsupport-about-rectangle-29ttcache-cellular-rectangle-30ttactions-rectangle,
+.group-tt-account-rectangle,
+.group-tt-cache-cellular-rectangle,
+.group-tt-actions-rectangle {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-8,
+.group-t-account,
+.group-t-iconamoon-profile-light-edit-profile,
+.group-t-material-symbols-privacy-tip-outline-security,
+.group-t-ic-outline-lock-privacy,
+.group-t-support-about,
+.group-tt-material-symbols-credit-card-outline-my-subscribtion,
+.group-t-mdi-question-mark-circle-outline-help-support,
+.group-t-cache-cellular,
+.group-t-ic-outline-data-exploration-data-saver,
+.group-t-actions,
+.group-t-ic-sharp-people-outline-add-account,
+.group-t-mdi-logout-log-out {
+  display: flex;
+  align-items: center;
+}
+
+.common-1,
+.group-rectangle,
+.group-rectangle-1,
+.group-rectangle-2,
+.group-rectangle-3 {
+  display: flex;
+  background-color: #1919700c;
+}
+
+.common-2,
+.group-iconamoon-profile-light,
+.group-material-symbols-privacy-tip-outline,
+.group-iconamoon-notification,
+.group-ic-outline-lock,
+.group-material-symbols-credit-card-outline,
+.group-mdi-question-mark-circle-outline,
+.group-tabler-circle-letter-i,
+.group-ri-delete-bin-5line,
+.group-ic-outline-data-exploration,
+.group-ic-sharp-outlined-flag,
+.group-ic-sharp-people-outline,
+.group-mdi-logout {
+  width: 30px;
+  height: 30px;
+}
+
+.group-group {
+  row-gap: 17px;
+  width: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  line-height: 0.88;
+  letter-spacing: 0em;
+}
+
+.group-tttt-vector-settings-buttons {
+  flex-wrap: wrap;
+  row-gap: 11px;
+  column-gap: 97px;
+  padding-left: 8px;
+  padding-right: 9px;
+}
+
+.group-ttt-vector-settings {
+  padding-bottom: 1px;
+}
+
+.group-tt-vector-settings {
+  column-gap: 84px;
+}
+
+.group-t-vector {
+  padding-bottom: 1px;
+}
+
+.group-vector {
+  width: 13px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.group-settings {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.group-buttons {
+  border-style: solid;
+  border-color: black;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  align-items: center;
+  background-color: mediumpurple;
+  width: 32px;
+  height: 32px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 1));
+  flex-shrink: 0;
+}
+
+.group-x {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.group-ttt-account-rectangle-28ttsupport-about-rectangle-29ttcache-cellular-rectangle-30ttactions-rectangle {
+  row-gap: 12px;
+  flex-grow: 1;
+  font-weight: 600;
+}
+
+.group-tt-account-rectangle {
+  row-gap: 13px;
+}
+
+.group-t-account {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.group-rectangle {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  align-items: center;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 13px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.group-tt-iconamoon-profile-light-edit-profile-tmaterial-symbols-privacy-tip-outline-security-ticonamoon-notification-notifications-tic-outline-lock-privacy {
+  row-gap: 9px;
+}
+
+.group-t-iconamoon-profile-light-edit-profile {
+  column-gap: 36px;
+}
+
+.group-iconamoon-profile-light {
+  flex-shrink: 0;
+}
+
+.group-t-material-symbols-privacy-tip-outline-security {
+  column-gap: 36px;
+}
+
+.group-material-symbols-privacy-tip-outline {
+  flex-shrink: 0;
+}
+
+.group-t-iconamoon-notification-notifications {
+  column-gap: 36px;
+}
+
+.group-iconamoon-notification {
+  flex-shrink: 0;
+}
+
+.group-t-ic-outline-lock-privacy {
+  column-gap: 36px;
+}
+
+.group-ic-outline-lock {
+  flex-shrink: 0;
+}
+
+.group-tt-support-about-rectangle {
+  row-gap: 10px;
+  padding-top: 4px;
+}
+
+.group-t-support-about {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.group-rectangle-1 {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  align-items: center;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.group-ttt-material-symbols-credit-card-outline-my-subscribtion-tmdi-question-mark-circle-outline-help-support-ttabler-circle-letter-iterms-and-policies {
+  row-gap: 9px;
+}
+
+.group-tt-material-symbols-credit-card-outline-my-subscribtion {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.group-t-material-symbols-credit-card-outline-my-subscribtion {
+  column-gap: 35px;
+}
+
+.group-material-symbols-credit-card-outline {
+  flex-shrink: 0;
+}
+
+.group-t-mdi-question-mark-circle-outline-help-support {
+  column-gap: 36px;
+}
+
+.group-mdi-question-mark-circle-outline {
+  flex-shrink: 0;
+}
+
+.group-t-tabler-circle-letter-iterms-and-policies {
+  column-gap: 36px;
+}
+
+.group-tabler-circle-letter-i {
+  flex-shrink: 0;
+}
+
+.group-tt-cache-cellular-rectangle {
+  row-gap: 11px;
+  padding-top: 3px;
+}
+
+.group-t-cache-cellular {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.group-rectangle-2 {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  align-items: center;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.group-tt-ri-delete-bin-5line-free-up-space-tic-outline-data-exploration-data-saver {
+  row-gap: 9px;
+}
+
+.group-t-ri-delete-bin-5line-free-up-space {
+  column-gap: 38px;
+}
+
+.group-ri-delete-bin-5line {
+  flex-shrink: 0;
+}
+
+.group-t-ic-outline-data-exploration-data-saver {
+  column-gap: 38px;
+}
+
+.group-ic-outline-data-exploration {
+  flex-shrink: 0;
+}
+
+.group-tt-actions-rectangle {
+  row-gap: 9px;
+}
+
+.group-t-actions {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.group-rectangle-3 {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  align-items: flex-start;
+  row-gap: 9px;
+  flex-direction: column;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 13px;
+  justify-content: center;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.group-tt-ic-sharp-outlined-flag-report-aproblem-tic-sharp-people-outline-add-account {
+  row-gap: 9px;
+}
+
+.group-t-ic-sharp-outlined-flag-report-aproblem {
+  column-gap: 36px;
+}
+
+.group-ic-sharp-outlined-flag {
+  flex-shrink: 0;
+}
+
+.group-t-ic-sharp-people-outline-add-account {
+  column-gap: 36px;
+}
+
+.group-ic-sharp-people-outline {
+  flex-shrink: 0;
+}
+
+.group-t-mdi-logout-log-out {
+  column-gap: 36px;
+}
+
+.group-mdi-logout {
+  flex-shrink: 0;
+}
+@media (min-width: 332px) {
+  .group-tttt-vector-settings-buttons {
+    flex-wrap: nowrap;
+  }
+}

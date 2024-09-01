@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700");
+@import url("https://api.fontshare.com/css?f[]=inter@400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=rubik@400,700&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-11,
+.group-image-placeholder,
+.group-buttons {
+  border-style: solid;
+  border-color: black;
+}
+
+.common-12,
+.group-rectangle,
+.group-rectangle-1,
+.group-rectangle-2,
+.group-rectangle-3,
+.group-rectangle-4 {
+  border-style: solid;
+  border-color: #69696923;
+}
+
+.common-5,
+.group-rectangle-3,
+.group-rectangle-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.common-6,
+.group-t-material-symbols-arrow-back-ios-tedit-profile,
+.group-tt-image-placeholder,
+.group-t-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.common-7,
+.group-group,
+.group-t-edit-profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-8,
+.group-tt-material-symbols-arrow-back-ios-tedit-profile,
+.group-edit-profile,
+.group-t-image-placeholder,
+.group-rectangle,
+.group-rectangle-1,
+.group-rectangle-2 {
+  display: flex;
+  align-items: center;
+}
+
+.common-9,
+.group-name,
+.group-email,
+.group-password,
+.group-date-of-birth,
+.group-country-region {
+  display: flex;
+  align-items: flex-end;
+}
+
+.common-10,
+.group-image-placeholder,
+.group-buttons {
+  justify-content: center;
+  align-items: center;
+}
+
+.common-4,
+.group-melissa-peters,
+.group-melpeters-gmail-com,
+.group-component,
+.group-component-1,
+.group-nigeria {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.common-1,
+.group-image-placeholder,
+.group-buttons {
+  display: flex;
+  background-color: #87ceebb7;
+}
+
+.common-2,
+.group-melissa-peters,
+.group-melpeters-gmail-com,
+.group-nigeria {
+  display: flex;
+  color: dimgray;
+}
+
+.common-3,
+.group-material-symbols-arrow-back-ios-1,
+.group-material-symbols-arrow-back-ios-2 {
+  width: 20px;
+  height: 20px;
+}
+
+.group-group {
+  row-gap: 11px;
+  width: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  line-height: 0.88;
+  letter-spacing: 0em;
+}
+
+.group-tt-material-symbols-arrow-back-ios-tedit-profile {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.group-t-material-symbols-arrow-back-ios-tedit-profile {
+  column-gap: 87px;
+}
+
+.group-material-symbols-arrow-back-ios {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.group-t-edit-profile {
+  align-items: center;
+  align-self: stretch;
+  padding-top: 6px;
+}
+
+.group-edit-profile {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.group-tt-image-placeholder {
+  padding-top: 20px;
+}
+
+.group-t-image-placeholder {
+  padding-right: 12px;
+}
+
+.group-image-placeholder {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  flex-direction: column;
+  width: 160px;
+  height: 160px;
+  padding-bottom: 54px;
+  padding-left: 54px;
+  padding-right: 54px;
+  padding-top: 54px;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 1));
+  flex-shrink: 0;
+}
+
+.group-photograph {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.group-t-name {
+  padding-top: 18px;
+}
+
+.group-name {
+  font-weight: 700;
+}
+
+.group-rectangle {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 228px;
+  padding-top: 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.group-melissa-peters {
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.group-t-email {
+  padding-top: 7px;
+}
+
+.group-email {
+  font-weight: 700;
+}
+
+.group-rectangle-1 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 176px;
+  padding-top: 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.group-melpeters-gmail-com {
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.group-t-password {
+  padding-top: 7px;
+}
+
+.group-password {
+  font-weight: 700;
+}
+
+.group-rectangle-2 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 238px;
+  padding-top: 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.group-component {
+  display: flex;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.group-t-date-of-birth {
+  padding-top: 7px;
+}
+
+.group-date-of-birth {
+  font-weight: 700;
+}
+
+.group-rectangle-3 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  row-gap: 6px;
+  column-gap: 48px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 19px;
+  padding-top: 7px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.group-component-1 {
+  color: dimgray;
+}
+
+.group-material-symbols-arrow-back-ios-1 {
+  flex-shrink: 0;
+}
+
+.group-rectangle-3input {
+  padding-left: 8px;
+  padding-right: 8px;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.group-t-country-region {
+  padding-top: 7px;
+}
+
+.group-country-region {
+  font-weight: 700;
+}
+
+.group-rectangle-4 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 19px;
+  padding-top: 7px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.group-nigeria {
+  outline: none;
+  flex-grow: 1;
+  min-width: 0px;
+}
+
+.group-material-symbols-arrow-back-ios-2 {
+  flex-shrink: 0;
+}
+
+.group-t-buttons {
+  padding-right: 2px;
+  padding-top: 18px;
+}
+
+.group-buttons {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 1));
+  text-align: left;
+}
+
+.group-button-label {
+  text-align: center;
+  font-family: Rubik, ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.group-rectangle:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.group-melissa-peters::placeholder {
+  color: #544c4c;
+}
+
+.group-rectangle-1:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.group-melpeters-gmail-com::placeholder {
+  color: #544c4c;
+}
+
+.group-rectangle-2:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.group-component::placeholder {
+  color: black;
+}
+
+.group-rectangle-3:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.group-rectangle-4:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.group-nigeria::placeholder {
+  color: #544c4c;
+}
+@media (min-width: 332px) {
+  .group-rectangle-3 {
+    flex-wrap: nowrap;
+  }
+  .group-rectangle-4 {
+    flex-wrap: nowrap;
+  }
+}

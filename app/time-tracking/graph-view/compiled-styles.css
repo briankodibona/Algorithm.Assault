@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600");
+@import url("https://api.fontshare.com/css?f[]=inter@400,500,600&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-3,
+.component-component,
+.component-tt-bg-chart-7hrs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-4,
+.component-t-bg-chart-7hrs,
+.component-t-you-logged-in-for-7hrs-today {
+  display: flex;
+  justify-content: center;
+}
+
+.common-5,
+.component-today,
+.component-ttt-bg-chart-7hrs {
+  display: flex;
+  align-items: center;
+}
+
+.common-1,
+.component-today,
+.component-last-updated-5mins-ago {
+  color: gray;
+  font-size: 14px;
+}
+
+.common-2,
+.component-hrs,
+.component-you-logged-in-for-7hrs-today {
+  font-weight: 600;
+  text-align: center;
+}
+
+.component-component {
+  border-style: solid;
+  border-color: whitesmoke;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background-color: white;
+  row-gap: 4px;
+  padding-bottom: 27px;
+  padding-top: 54px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  position: relative;
+  width: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.component-today {
+  width: 40px;
+  height: 18px;
+  text-align: left;
+  left: 28px;
+  top: 28px;
+  position: absolute;
+  line-height: 18px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.component-ttt-bg-chart-7hrs {
+  width: 357px;
+  padding-left: 37px;
+}
+
+.component-tt-bg-chart-7hrs {
+  margin-right: -22.28px;
+  flex-grow: 1;
+  padding-bottom: 0.06px;
+  padding-left: 0.06px;
+  padding-right: 0.06px;
+  padding-top: 116px;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.component-t-bg-chart-7hrs {
+  align-items: center;
+  padding-right: 43px;
+  z-index: 0;
+  position: relative;
+}
+
+.component-bg-chart {
+  height: 174px;
+  z-index: 0;
+  left: -96px;
+  right: -96px;
+  top: -115.67px;
+  position: absolute;
+  text-align: center;
+}
+
+.component-hrs {
+  z-index: 2;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -2px;
+}
+
+.component-t-you-logged-in-for-7hrs-today {
+  align-items: flex-end;
+  align-self: stretch;
+  padding-top: 10px;
+}
+
+.component-you-logged-in-for-7hrs-today {
+  line-height: 20px;
+}
+
+.component-last-updated-5mins-ago {
+  line-height: 18px;
+  font-weight: 500;
+}
