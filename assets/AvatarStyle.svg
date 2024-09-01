@@ -1,0 +1,14 @@
+<svg width="100%" height="100%" style="overflow:visible;" preserveAspectRatio="none" viewBox="0 0 33.25 33.25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0_5_713" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="34" height="34">
+<circle cx="16.6448" cy="16.7315" r="16.6228" fill="#4318FF"/>
+</mask>
+<g mask="url(#mask0_5_713)">
+<rect x="-3.30257" y="-3.21588" width="37.0452" height="46.544" fill="url(#pattern0_5_713)"/>
+</g>
+<defs>
+<pattern id="pattern0_5_713" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_5_713" transform="matrix(0.000306741 0 0 0.000244141 -0.00244143 0)"/>
+</pattern>
+<image id="image0_5_713" width="3276" height="4096" xlink:href="/assets/avatar-style.png"/>
+</defs>
+</svg>
